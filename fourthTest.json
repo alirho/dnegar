@@ -1,0 +1,172 @@
+{
+    "time": 1722837231118,
+    "blocks": [
+        {
+            "id": "W0tJvSWNqH",
+            "type": "header",
+            "data": {
+                "text": "آزمون چهارم بارگذاری در گیت‌هاب",
+                "level": 2
+            },
+            "tunes": {
+                "alignment": {
+                    "alignment": "unset"
+                },
+                "direction": {}
+            }
+        },
+        {
+            "id": "KXjSIX3JTQ",
+            "type": "paragraph",
+            "data": {
+                "text": "در این آزمون برای چهارمین بار بارگذاری دفتریادداشت در گیت‌هاب مورد بررسی قرار می‌گیرد.<br>",
+                "alignment": "right"
+            },
+            "tunes": {
+                "direction": {}
+            }
+        },
+        {
+            "id": "AWWYBhhduV",
+            "type": "uploadFile",
+            "data": {
+                "file": [
+                    {
+                        "province": "اردبيل",
+                        "population": 1270420
+                    },
+                    {
+                        "province": "اصفهان",
+                        "population": 5120850
+                    },
+                    {
+                        "province": "البرز",
+                        "population": 2712400
+                    },
+                    {
+                        "province": "ايلام",
+                        "population": 580158
+                    },
+                    {
+                        "province": "آذربايجان شرقي",
+                        "population": 3909652
+                    },
+                    {
+                        "province": "آذربايجان غربي",
+                        "population": 3265219
+                    },
+                    {
+                        "province": "بوشهر",
+                        "population": 1163400
+                    },
+                    {
+                        "province": "تهران",
+                        "population": 13267637
+                    },
+                    {
+                        "province": "چهارمحال‌ و‌ بختياري",
+                        "population": 947763
+                    },
+                    {
+                        "province": "خراسان جنوبي",
+                        "population": 768898
+                    },
+                    {
+                        "province": "خراسان رضوي",
+                        "population": 6434501
+                    },
+                    {
+                        "province": "خراسان شمالي",
+                        "population": 863092
+                    },
+                    {
+                        "province": "خوزستان",
+                        "population": 4710509
+                    },
+                    {
+                        "province": "زنجان",
+                        "population": 1057461
+                    },
+                    {
+                        "province": "سمنان",
+                        "population": 702360
+                    },
+                    {
+                        "province": "سيستان‌ و‌ بلوچستان",
+                        "population": 2775014
+                    },
+                    {
+                        "province": "فارس",
+                        "population": 4851274
+                    },
+                    {
+                        "province": "قزوين",
+                        "population": 1273761
+                    },
+                    {
+                        "province": "قم",
+                        "population": 1292283
+                    },
+                    {
+                        "province": "کردستان",
+                        "population": 1603011
+                    },
+                    {
+                        "province": "کرمان",
+                        "population": 3164718
+                    },
+                    {
+                        "province": "کرمانشاه",
+                        "population": 1952434
+                    },
+                    {
+                        "province": "کهگيلويه‌ و‌ بويراحمد",
+                        "population": 713052
+                    },
+                    {
+                        "province": "گلستان",
+                        "population": 1868619
+                    },
+                    {
+                        "province": "گيلان",
+                        "population": 2530696
+                    },
+                    {
+                        "province": "لرستان",
+                        "population": 1760649
+                    },
+                    {
+                        "province": "مازندران",
+                        "population": 3283582
+                    },
+                    {
+                        "province": "مرکزي",
+                        "population": 1429475
+                    },
+                    {
+                        "province": "هرمزگان",
+                        "population": 1776415
+                    },
+                    {
+                        "province": "همدان",
+                        "population": 1758268
+                    },
+                    {
+                        "province": "يزد",
+                        "population": 1138533
+                    }
+                ],
+                "fileName": "iranPopulation.json",
+                "variableName": "iranPopulation"
+            }
+        },
+        {
+            "id": "Hq2JTrD_SM",
+            "type": "plot",
+            "data": {
+                "code": "plotly.plot({\n    marks: [\n        plotly.barY(iranPopulation, {x: 'province', y: 'population', fill: 'steelblue', tip: true}), \n        plotly.ruleY([0])\n    ],\n    x: {\n        label: 'استان',\n        tickRotate: -50\n    },\n    y: {\n        label: 'جمعیت',\n        grid: true\n    },\n    marginLeft: 80,\n    marginBottom: 90,\n    width: 900,\n    height: 500\n});\n"
+            }
+        }
+    ],
+    "version": "2.29.1"
+}
