@@ -1,0 +1,188 @@
+{
+    "time": 1722942929682,
+    "blocks": [
+        {
+            "id": "emT0-McfM5",
+            "type": "header",
+            "data": {
+                "text": "انتخابات ریاست جمهوری ایران",
+                "level": 1
+            },
+            "tunes": {
+                "alignment": {
+                    "alignment": "unset"
+                },
+                "direction": {}
+            }
+        },
+        {
+            "id": "nSsrOBRC03",
+            "type": "uploadFile",
+            "data": {
+                "file": [
+                    {
+                        "election": "اول",
+                        "year": 1358,
+                        "population": 37819000,
+                        "eligible": 20993643,
+                        "participant": 14152907,
+                        "percent": 64.71
+                    },
+                    {
+                        "election": "دوم",
+                        "year": 1360,
+                        "population": 40835000,
+                        "eligible": 22687017,
+                        "participant": 14572493,
+                        "percent": 64.23
+                    },
+                    {
+                        "election": "سوم",
+                        "year": 1360,
+                        "population": 40835000,
+                        "eligible": 22687017,
+                        "participant": 16847715,
+                        "percent": 74.26
+                    },
+                    {
+                        "election": "چهارم",
+                        "year": 1364,
+                        "population": 47606000,
+                        "eligible": 25993802,
+                        "participant": 14238587,
+                        "percent": 54.78
+                    },
+                    {
+                        "election": "پنجم",
+                        "year": 1368,
+                        "population": 53185000,
+                        "eligible": 30139598,
+                        "participant": 16452562,
+                        "percent": 54.59
+                    },
+                    {
+                        "election": "ششم",
+                        "year": 1372,
+                        "population": 57491000,
+                        "eligible": 33156055,
+                        "participant": 16796755,
+                        "percent": 50.66
+                    },
+                    {
+                        "election": "هفتم",
+                        "year": 1376,
+                        "population": 61070000,
+                        "eligible": 36466487,
+                        "participant": 29145745,
+                        "percent": 79.92
+                    },
+                    {
+                        "election": "هشتم",
+                        "year": 1380,
+                        "population": 65301000,
+                        "eligible": 42170230,
+                        "participant": 28155969,
+                        "percent": 66.77
+                    },
+                    {
+                        "election": "نهم",
+                        "year": 1384,
+                        "population": 69390000,
+                        "eligible": 46786418,
+                        "participant": 27958931,
+                        "percent": 59.76
+                    },
+                    {
+                        "election": "دهم",
+                        "year": 1388,
+                        "population": 73223000,
+                        "eligible": 46199997,
+                        "participant": 39371214,
+                        "percent": 84.83
+                    },
+                    {
+                        "election": "یازدهم",
+                        "year": 1392,
+                        "population": 77025000,
+                        "eligible": 50483192,
+                        "participant": 36821538,
+                        "percent": 72.94
+                    },
+                    {
+                        "election": "دوازدهم",
+                        "year": 1396,
+                        "population": 81053000,
+                        "eligible": 56410234,
+                        "participant": 41366085,
+                        "percent": 73.33
+                    },
+                    {
+                        "election": "سیزدهم",
+                        "year": 1400,
+                        "population": 84055000,
+                        "eligible": 59310307,
+                        "participant": 28933004,
+                        "percent": 48.8
+                    },
+                    {
+                        "election": "چهاردهم",
+                        "year": 1403,
+                        "population": 85961000,
+                        "eligible": 61452321,
+                        "participant": 24535185,
+                        "percent": 39.96
+                    }
+                ],
+                "fileName": "iranianPresidentialElection.json",
+                "variableName": "iranianPresidentialElection"
+            }
+        },
+        {
+            "id": "FArHQi0qoj",
+            "type": "ide",
+            "data": {
+                "code": "plotly.plot({\n    marks: [\n        plotly.barY(iranianPresidentialElection, {x: \"election\", y: \"percent\", fill: \"steelblue\", channels: {year: (d) => `${d.year}`}, tip: true}),\n        plotly.ruleY([0])\n    ],\n    x: {\n        padding: 0.4,\n        domain: iranianPresidentialElection.map(d => d.election)\n    },\n    y: {\n        grid: true,\n        domain: [0, 100]\n    },\n    width: 900,\n    height: 600,\n    marginTop: 50,\n    caption: \"درصد مشارکت دروه‌های مختلف\"\n});"
+            }
+        },
+        {
+            "id": "0BrzC4u2im",
+            "type": "ide",
+            "data": {
+                "code": "plotly.plot({\n    marks: [\n    plotly.lineY(iranianPresidentialElection, {x: \"election\", y: \"percent\", channels: {year: (d) => `${d.year}`}, tip: true, marker: \"dot\"}),\n    plotly.ruleY([0])\n    ],\n    x: {\n        padding: 0.4,\n        domain: iranianPresidentialElection.map(d => d.election)\n    },\n    y: {\n        grid: true,\n        domain: [0, 100]\n    },\n    width: 900,\n    height: 600,\n    marginTop: 50,\n    caption: \"درصد مشارکت دروه‌های مختلف\"\n});"
+            }
+        },
+        {
+            "id": "hez5NwZ3Dx",
+            "type": "header",
+            "data": {
+                "text": "تعداد واجدین شرایط و مشارکت‌کنندگان",
+                "level": 2
+            },
+            "tunes": {
+                "alignment": {
+                    "alignment": "unset"
+                },
+                "direction": {}
+            }
+        },
+        {
+            "id": "PCrbR4EoZD",
+            "type": "paragraph",
+            "data": {
+                "text": "در این بخش جمعیت، تعداد&nbsp; واجدین شرایط و مشارکت‌کنندگان در هر دوره مشخص شده است.",
+                "alignment": "right"
+            },
+            "tunes": {
+                "direction": {}
+            }
+        },
+        {
+            "id": "Qz0QVlD002",
+            "type": "ide",
+            "data": {
+                "code": "plotly.plot({\n    marks: [\n        plotly.barY(iranianPresidentialElection, {x: \"election\", y: \"population\", fill: \"gray\"}),\n        plotly.barY(iranianPresidentialElection, {x: \"election\", y: \"eligible\", fill: \"steelblue\"}),\n        plotly.barY(iranianPresidentialElection, {x: \"election\", y: \"participant\", fill: \"orange\"}),\n        plotly.tip(iranianPresidentialElection, plotly.pointerX({x: \"election\", \n            channels: {participant: \"participant\", eligible: \"eligible\", population: \"population\", year: (d) => `${d.year}`}})),\n        plotly.ruleY([0])\n    ],\n    x: {\n        type: \"band\",\n        padding: 0.4,\n        domain: iranianPresidentialElection.map(d => d.election),\n        label: 'دوره'\n    },\n    y: {\n        grid: true,\n        label: \"تعداد\"\n    },\n    color: {\n        domain: [\"eligible\", \"participant\", \"population\"],\n        range: [\"steelblue\", \"orange\", \"gray\"],\n        legend: true,\n    },\n    width: 900,\n    height: 600,\n    marginLeft: 70,\n    marginBottom:40,\n    caption: \"تعداد واجدین شرایط و مشارکت کنندگان\"\n});\n"
+            }
+        }
+    ],
+    "version": "2.29.1"
+}
