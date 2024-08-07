@@ -1,5 +1,5 @@
 {
-    "time": 1723011101355,
+    "time": 1723011162753,
     "blocks": [
         {
             "id": "sxx6NO-G22",
@@ -12,6 +12,17 @@
                 "alignment": {
                     "alignment": "unset"
                 },
+                "direction": {}
+            }
+        },
+        {
+            "id": "71emYWJ47I",
+            "type": "paragraph",
+            "data": {
+                "text": "داده‌های موجود در این دفتریادداشت از ویکی‌پدیای فارسی جمع‌آوری شده است.",
+                "alignment": "right"
+            },
+            "tunes": {
                 "direction": {}
             }
         },
