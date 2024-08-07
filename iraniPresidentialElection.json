@@ -1,5 +1,5 @@
 {
-    "time": 1723011162753,
+    "time": 1723020739072,
     "blocks": [
         {
             "id": "sxx6NO-G22",
@@ -216,7 +216,7 @@
             "id": "4tOAVREFee",
             "type": "plot",
             "data": {
-                "code": "plotly.plot({\n    marks: [\n        plotly.barY(iranianPresidentialElection, {x: \"election\", y: \"population\", fill: \"gray\"}),\n        plotly.barY(iranianPresidentialElection, {x: \"election\", y: \"eligible\", fill: \"steelblue\"}),\n        plotly.barY(iranianPresidentialElection, {x: \"election\", y: \"participant\", fill: \"orange\"}),\n        plotly.tip(iranianPresidentialElection, plotly.pointerX({x: \"election\", \n            channels: {participant: \"participant\", eligible: \"eligible\", population: \"population\", year: (d) => `${d.year}`}})),\n        plotly.ruleY([0])\n    ],\n    x: {\n        type: \"band\",\n        padding: 0.4,\n        domain: iranianPresidentialElection.map(d => d.election),\n        label: 'دوره'\n    },\n    y: {\n        grid: true,\n        label: \"تعداد\"\n    },\n    color: {\n        domain: [\"واجد شرایط\", \"مشارکت کننده\", \"جمعیت\"],\n        range: [\"steelblue\", \"orange\", \"gray\"],\n        legend: true,\n    },\n    width: 900,\n    height: 600,\n    marginLeft: 70,\n    marginBottom: 45,\n    caption: \"تعداد واجدین شرایط و مشارکت کنندگان\"\n});\n"
+                "code": "plotly.plot({\n    marks: [\n        plotly.barY(iranianPresidentialElection, {x: \"election\", y: \"population\", fill: \"gray\"}),\n        plotly.barY(iranianPresidentialElection, {x: \"election\", y: \"eligible\", fill: \"steelblue\"}),\n        plotly.barY(iranianPresidentialElection, {x: \"election\", y: \"participant\", fill: \"orange\"}),\n        plotly.tip(iranianPresidentialElection, plotly.pointerX({x: \"election\", \n            channels: {'مشارکت': \"participant\", eligible: \"eligible\", population: \"population\", year: (d) => `${d.year}`}})),\n        plotly.ruleY([0])\n    ],\n    x: {\n        type: \"band\",\n        padding: 0.4,\n        domain: iranianPresidentialElection.map(d => d.election),\n        label: 'دوره'\n    },\n    y: {\n        grid: true,\n        label: \"تعداد\"\n    },\n    color: {\n        domain: [\"واجد شرایط\", \"مشارکت کننده\", \"جمعیت\"],\n        range: [\"steelblue\", \"orange\", \"gray\"],\n        legend: true,\n    },\n    width: 900,\n    height: 600,\n    marginLeft: 70,\n    marginBottom: 45,\n    caption: \"تعداد واجدین شرایط و مشارکت کنندگان\"\n});\n"
             }
         }
     ],
