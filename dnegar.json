@@ -1,0 +1,97 @@
+{
+    "time": 1724130920063,
+    "blocks": [
+        {
+            "id": "8zyGf1Uc6S",
+            "type": "header",
+            "data": {
+                "text": "داده نگار",
+                "level": 1
+            },
+            "tunes": {
+                "alignment": {
+                    "alignment": "unset"
+                },
+                "direction": {}
+            }
+        },
+        {
+            "id": "lO2icOhBb-",
+            "type": "paragraph",
+            "data": {
+                "text": "داده نگار ابزاری است جهت مصورسازی داده‌ها با شعار «داستان خود را به تصویر بکشید». کاربر برای این کار می‌تواند از ویرایشگر بلوکی داده نگار استفاده کند.<br>",
+                "alignment": "right"
+            },
+            "tunes": {
+                "direction": {}
+            }
+        },
+        {
+            "id": "rjDGWYHlan",
+            "type": "header",
+            "data": {
+                "text": "ویژگی‌ها",
+                "level": 2
+            },
+            "tunes": {
+                "alignment": {
+                    "alignment": "unset"
+                },
+                "direction": {}
+            }
+        },
+        {
+            "id": "LDlqDdtbgX",
+            "type": "paragraph",
+            "data": {
+                "text": "داده نگار شامل ویژگی‌های زیر می‌باشد<br>",
+                "alignment": "right"
+            },
+            "tunes": {
+                "direction": {}
+            }
+        },
+        {
+            "id": "ZLUs37G0VD",
+            "type": "list",
+            "data": {
+                "style": "unordered",
+                "items": [
+                    {
+                        "content": "عنوان",
+                        "items": []
+                    },
+                    {
+                        "content": "متن",
+                        "items": []
+                    },
+                    {
+                        "content": "عکس",
+                        "items": []
+                    },
+                    {
+                        "content": "نمودار",
+                        "items": []
+                    },
+                    {
+                        "content": "کد",
+                        "items": []
+                    },
+                    {
+                        "content": "تصویر",
+                        "items": []
+                    },
+                    {
+                        "content": "لیست",
+                        "items": []
+                    },
+                    {
+                        "content": "سیاهه",
+                        "items": []
+                    }
+                ]
+            }
+        }
+    ],
+    "version": "2.29.1"
+}
